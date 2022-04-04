@@ -13,7 +13,6 @@ homebrew_installed_packages:
   - pyenv
   - jq
   - python3
-  - python
   - redis
   - ripgrep
   - rsync
