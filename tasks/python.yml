@@ -19,5 +19,7 @@
         bin: pip-compile
       - name: youtube-dl
         bin: youtube-dl
+      - name: black
+        bin: black
   args:
     creates: $HOME/.local/bin/{{ item.bin }}
