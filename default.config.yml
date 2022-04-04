@@ -1,0 +1,52 @@
+
+---
+downloads: ~/.ansible-downloads/
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - parallel
+  - autojump
+  - bat
+  - hey
+  - htop
+  - postgresql
+  - pyenv
+  - jq
+  - python3
+  - python
+  - redis
+  - ripgrep
+  - rsync
+  - ruby
+  - sentry-cli
+  - exa
+  - dust
+  - duf
+  - snyk
+  - fd
+  - fish
+  - tig
+  - tldr
+  - tmux
+  - fzf
+  - vim
+  - mtr
+  - watchman
+  - wget
+  - gh
+  - youtube-dl
+  - nmap
+  - gnu-sed
+  - openssl
+
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+
+homebrew_cask_apps:
+  - font-hack-nerd-font
+  - adoptopenjdk8
+  - adoptopenjdk11
