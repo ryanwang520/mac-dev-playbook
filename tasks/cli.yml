@@ -1,0 +1,16 @@
+
+---
+- name: Install volta
+  shell: curl https://get.volta.sh | bash
+  args:
+    creates: $HOME/.volta/bin/volta
+
+- name: Install node clis
+  shell: volta install {{ item }} 
+  loop: 
+      - node
+      - yarn
+  args:
+    creates: $HOME/.volta/bin/{{ item }}
+          
+      
