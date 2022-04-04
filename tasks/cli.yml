@@ -13,4 +13,14 @@
   args:
     creates: $HOME/.volta/bin/{{ item }}
           
-      
+- name: Install node binaries
+  shell: npm install -g {{ item.name }}
+  loop: 
+      - name: typescript
+        bin: tsc
+      - name: react-native
+        bin: react-native
+      - name: "@tarojs/cli"
+        bin: taro
+  args:
+    creates: $HOME/.volta/bin/{{ item.bin }}
