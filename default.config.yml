@@ -4,6 +4,7 @@ downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - starship
   - parallel
   - autojump
   - bat
