@@ -8,8 +8,9 @@
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
-  
+
   tasks:
-    - import_tasks: tasks/cli.yml
-      name: Install command line utilities
-      tags: ['cli']
+    - include: tasks/node.yml
+      tags: ['cli', 'node']
+    - include: tasks/python.yml
+      tags: ['cli', 'python']

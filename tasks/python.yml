@@ -1,0 +1,23 @@
+---
+
+- name: install pip binaries
+  shell: pipx install {{ item.name }}
+  loop:
+      - name: ansible
+        bin: ansible
+      - name: django-upgrade
+        bin: django-upgrade
+      - name: httpie
+        bin: httpie
+      - name: ipython
+        bin: ipython
+      - name: poetry
+        bin: poetry
+      - name: pre-commit
+        bin: pre-commit
+      - name: pip-tools
+        bin: pip-compile
+      - name: youtube-dl
+        bin: youtube-dl
+  args:
+    creates: $HOME/.local/bin/{{ item.bin }}

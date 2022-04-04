@@ -13,7 +13,6 @@ homebrew_installed_packages:
   - postgresql
   - pyenv
   - jq
-  - python3
   - redis
   - ripgrep
   - rsync
@@ -34,10 +33,10 @@ homebrew_installed_packages:
   - watchman
   - wget
   - gh
-  - youtube-dl
   - nmap
   - gnu-sed
   - openssl
+  - pipx
 
 
 homebrew_taps:
