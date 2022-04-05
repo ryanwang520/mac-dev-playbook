@@ -54,40 +54,40 @@ homebrew_cask_apps:
   - font-hack-nerd-font
   - adoptopenjdk8
   - adoptopenjdk11
-  - google-chrome
   - firefox
   - alfred
   - microsoft-edge
   - microsoft-remote-desktop
   - microsoft-office
-  - pdf-expert
-  - openvpn-connect
-  - bartender
-  - charles
-  - wireshark
-  - dash
-  - dropbox
-  - fig
-  - docker
-  - iterm2
-  - sip
-  - slack
-  - moom
-  - spotify
-  - rocket
-  - pixelsnap
-  - surge
-  - notion
-  - launchcontrol
-  - figma
-  - discord
-  - android-studio
-  - visual-studio-code
-  - flipper
-  - postman
-  - pycharm
-  - wechat
-  - wechatwebdevtools
-  - youdaodict
-  - zoomus
-  - tencent-meeting
+  # - pdf-expert
+  # - openvpn-connect
+  # - bartender
+  # - charles
+  # - wireshark
+  # - dash
+  # - dropbox
+  # - fig
+  # - docker
+  # - iterm2
+  # - sip
+  # - slack
+  # - moom
+  # - spotify
+  # - rocket
+  # - pixelsnap
+  # - surge
+  # - notion
+  # - launchcontrol
+  # - figma
+  # - discord
+  # - android-studio
+  # - visual-studio-code
+  # - flipper
+  # - postman
+  # - pycharm
+  # - wechat
+  # - wechatwebdevtools
+  # - youdaodict
+  # - zoomus
+  # - tencent-meeting
+  # - google-chrome
