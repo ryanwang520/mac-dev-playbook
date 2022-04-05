@@ -83,7 +83,7 @@ homebrew_cask_apps:
   - discord
   - android-studio
   - visual-studio-code
-  # - flipper
+  - flipper
   - postman
   - pycharm
   - wechat
