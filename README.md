@@ -4,5 +4,6 @@ This playbook installs and configures most of the software I use on my Mac for w
 
 ## Installation
 
+  1. RUn `python3 -m pip install ansible` to install ansible globally.
   1. Run `ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
   1. Run `ansible-playbook main.yml` inside this directory.

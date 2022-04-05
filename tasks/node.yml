@@ -20,5 +20,7 @@
         bin: tsc
       - name: react-native
         bin: react-native
+      - name: trash-cli
+        bin: trash
   args:
     creates: $HOME/.volta/bin/{{ item.bin }}

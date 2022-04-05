@@ -7,7 +7,6 @@ mas_installed_apps:
   - 1176895641 # spark
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - starship
   - parallel
   - autojump
@@ -42,6 +41,7 @@ homebrew_installed_packages:
   - openssl
   - pipx
   - tree
+  - pstree
 
 
 homebrew_taps:

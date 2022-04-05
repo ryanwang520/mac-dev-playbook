@@ -3,8 +3,6 @@
 - name: install pip binaries
   shell: pipx install {{ item.name }}
   loop:
-      - name: ansible
-        bin: ansible
       - name: django-upgrade
         bin: django-upgrade
       - name: httpie
