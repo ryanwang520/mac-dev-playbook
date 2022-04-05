@@ -1,9 +1,10 @@
 
 ---
 
-mas_installed_app_ids:
+mas_installed_apps:
   - 497799835 # Xcode
   - 967805235 # Paste
+  - 1176895641 # spark
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -75,7 +76,6 @@ homebrew_cask_apps:
   - spotify
   - rocket
   - pixelsnap
-  - spark
   - surge
   - notion
   - launchcontrol
