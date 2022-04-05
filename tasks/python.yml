@@ -22,6 +22,6 @@
       - name: black
         bin: black
       - name: speedtest-cli
-      - bin: speedtest
+        bin: speedtest
   args:
     creates: $HOME/.local/bin/{{ item.bin }}
