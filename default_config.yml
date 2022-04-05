@@ -1,0 +1,93 @@
+
+---
+
+mas_installed_apps:
+  - 497799835 # Xcode
+  - 967805235 # Paste
+  - 1176895641 # spark
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - starship
+  - parallel
+  - autojump
+  - bat
+  - hey
+  - htop
+  - postgresql
+  - pyenv
+  - jq
+  - redis
+  - ripgrep
+  - rsync
+  - ruby
+  - sentry-cli
+  - exa
+  - dust
+  - duf
+  - snyk
+  - fd
+  - fish
+  - tig
+  - tldr
+  - tmux
+  - fzf
+  - vim
+  - mtr
+  - watchman
+  - wget
+  - gh
+  - nmap
+  - gnu-sed
+  - openssl
+  - pipx
+  - tree
+
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+
+homebrew_cask_apps:
+  - font-hack-nerd-font
+  - adoptopenjdk8
+  - adoptopenjdk11
+  - google-chrome
+  - firefox
+  - alfred
+  - microsoft-edge
+  - microsoft-remote-desktop
+  - microsoft-office
+  - pdf-expert
+  - openvpn-connect
+  - bartender
+  - charles
+  - wireshark
+  - dash
+  - dropbox
+  - fig
+  - docker
+  - iterm2
+  - sip
+  - slack
+  - moom
+  - spotify
+  - rocket
+  - pixelsnap
+  - surge
+  - notion
+  - launchcontrol
+  - figma
+  - discord
+  - android-studio
+  - visual-studio-code
+  - flipper
+  - postman
+  - pycharm
+  - wechat
+  - wechatwebdevtools
+  - youdaodict
+  - zoomus
+  - tencent-meeting
