@@ -3,14 +3,19 @@
 
   vars_files:
     - default.config.yml
+    - config.yml
 
   roles:
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
+    - role: geerlingguy.mac.mas
+      tags: ['mas']
 
   tasks:
-    - include: tasks/node.yml
+    - name: node
+      import_tasks: tasks/node.yml
       tags: ['cli', 'node']
-    - include: tasks/python.yml
+    - name: node
+      import_tasks: tasks/python.yml
       tags: ['cli', 'python']

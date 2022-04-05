@@ -1,6 +1,9 @@
 
 ---
-downloads: ~/.ansible-downloads/
+
+mas_installed_app_ids:
+  - 497799835 # Xcode
+  - 967805235 # Paste
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -37,6 +40,7 @@ homebrew_installed_packages:
   - gnu-sed
   - openssl
   - pipx
+  - tree
 
 
 homebrew_taps:
@@ -49,3 +53,42 @@ homebrew_cask_apps:
   - font-hack-nerd-font
   - adoptopenjdk8
   - adoptopenjdk11
+  - google-chrome
+  - firefox
+  - alfred
+  - microsoft-edge
+  - microsoft-remote-desktop
+  - microsoft-office
+  - pdf-expert
+  - openvpn-connect
+  - bartender
+  - charles
+  - wireshark
+  - dash
+  - dropbox
+  - fig
+  - docker
+  - iterm2
+  - sip
+  - slack
+  - moom
+  - spotify
+  - rocket
+  - pixelsnap
+  - spark
+  - surge
+  - notion
+  - launchcontrol
+  - figma
+  - discord
+  - android-studio
+  - visual-studio-code
+  - visual-studio-code-insiders
+  - flipper
+  - postman
+  - pycharm
+  - wechat
+  - wechatwebdevtools
+  - youdaodict
+  - zoomus
+  - tencent-meeting
