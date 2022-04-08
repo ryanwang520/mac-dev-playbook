@@ -21,5 +21,7 @@
         bin: black
       - name: speedtest-cli
         bin: speedtest
+      - name: powerline-status
+        bin: powerline
   args:
     creates: $HOME/.local/bin/{{ item.bin }}
