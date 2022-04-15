@@ -63,34 +63,33 @@ homebrew_cask_apps:
   - microsoft-remote-desktop
   - microsoft-office
   - tencent-meeting
-  # - pdf-expert
-  # - openvpn-connect
-  # - bartender
-  # - charles
-  # - wireshark
-  # - dash
-  # - dropbox
-  # - fig
-  # - docker
-  # - iterm2
-  # - sip
-  # - slack
-  # - moom
-  # - spotify
-  # - rocket
-  # - pixelsnap
-  # - surge
-  # - notion
-  # - launchcontrol
-  # - figma
-  # - discord
-  # - android-studio
-  # - visual-studio-code
-  # - flipper
-  # - postman
-  # - pycharm
-  # - wechat
-  # - wechatwebdevtools
-  # - youdaodict
-  # - zoomus
-  # - google-chrome
+  - pdf-expert
+  - openvpn-connect
+  - bartender
+  - charles
+  - wireshark
+  - dash
+  - dropbox
+  - fig
+  - docker
+  - wechat
+  - wechatwebdevtools
+  - sip
+  - slack
+  - moom
+  - spotify
+  - rocket
+  - pixelsnap
+  - notion
+  - launchcontrol
+  - figma
+  - discord
+  - android-studio
+  - flipper
+  - postman
+  - youdaodict
+  - zoom
+  - google-chrome
+  - iterm2
+  - visual-studio-code
+  - pycharm
