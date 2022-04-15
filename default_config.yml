@@ -62,6 +62,7 @@ homebrew_cask_apps:
   - microsoft-edge
   - microsoft-remote-desktop
   - microsoft-office
+  - tencent-meeting
   # - pdf-expert
   # - openvpn-connect
   # - bartender
@@ -92,5 +93,4 @@ homebrew_cask_apps:
   # - wechatwebdevtools
   # - youdaodict
   # - zoomus
-  # - tencent-meeting
   # - google-chrome

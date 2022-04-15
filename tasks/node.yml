@@ -18,8 +18,6 @@
   loop:
       - name: typescript
         bin: tsc
-      - name: react-native
-        bin: react-native
       - name: trash-cli
         bin: trash
   args:
