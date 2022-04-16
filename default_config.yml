@@ -45,6 +45,7 @@ homebrew_installed_packages:
   - stow
   - ctags
   - the_silver_searcher
+  - go
 
 
 homebrew_taps:
@@ -93,3 +94,4 @@ homebrew_cask_apps:
   - iterm2
   - visual-studio-code
   - pycharm
+  - contexts
