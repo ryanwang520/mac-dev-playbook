@@ -71,7 +71,6 @@ homebrew_cask_apps:
   - wireshark
   - dash
   - dropbox
-  - fig
   - docker
   - wechat
   - wechatwebdevtools
