@@ -20,5 +20,7 @@
         bin: tsc
       - name: trash-cli
         bin: trash
+      - name: aicommits
+        bin: aicommits
   args:
     creates: $HOME/.volta/bin/{{ item.bin }}
