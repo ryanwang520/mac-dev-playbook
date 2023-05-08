@@ -87,7 +87,6 @@ homebrew_cask_apps:
   - android-studio
   - flipper
   - postman
-  - youdaodict
   - zoom
   - google-chrome
   - iterm2

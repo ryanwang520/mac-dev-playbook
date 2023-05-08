@@ -22,5 +22,7 @@
         bin: trash
       - name: aicommits
         bin: aicommits
+      - name: "@githubnext/github-copilot-cli"
+        bin: github-copilot-cli
   args:
     creates: $HOME/.volta/bin/{{ item.bin }}
