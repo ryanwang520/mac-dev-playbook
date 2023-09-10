@@ -46,6 +46,7 @@ homebrew_installed_packages:
   - ctags
   - the_silver_searcher
   - go
+  - neovim
 
 
 homebrew_taps:
@@ -56,8 +57,6 @@ homebrew_cask_appdir: /Applications
 
 homebrew_cask_apps:
   - font-hack-nerd-font
-  - adoptopenjdk8
-  - adoptopenjdk11
   - firefox
   - alfred
   - microsoft-edge
