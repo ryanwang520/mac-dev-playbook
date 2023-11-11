@@ -46,6 +46,7 @@ homebrew_installed_packages:
   - the_silver_searcher
   - go
   - neovim
+  - git
 
 
 homebrew_taps:
