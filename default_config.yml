@@ -31,7 +31,6 @@ homebrew_installed_packages:
   - tldr
   - tmux
   - fzf
-  - vim
   - mtr
   - watchman
   - wget
