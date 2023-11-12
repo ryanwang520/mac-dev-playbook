@@ -92,3 +92,5 @@ homebrew_cask_apps:
   - visual-studio-code
   - pycharm
   - contexts
+  - terraform
+  - mitmproxy
