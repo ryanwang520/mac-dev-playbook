@@ -45,6 +45,7 @@ homebrew_installed_packages:
   - ctags
   - the_silver_searcher
   - go
+  - vim
   - neovim
   - git
 
