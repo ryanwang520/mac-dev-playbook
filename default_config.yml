@@ -47,6 +47,7 @@ homebrew_installed_packages:
   - go
   - neovim
   - git
+  - git-delta
 
 
 homebrew_taps:
@@ -94,3 +95,4 @@ homebrew_cask_apps:
   - contexts
   - terraform
   - mitmproxy
+  - ansible
