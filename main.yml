@@ -16,6 +16,3 @@
     - name: node
       import_tasks: tasks/node.yml
       tags: ['cli', 'node']
-    - name: pytyon
-      import_tasks: tasks/python.yml
-      tags: ['cli', 'python']

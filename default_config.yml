@@ -14,7 +14,6 @@ homebrew_installed_packages:
   - hey
   - htop
   - postgresql
-  - pyenv
   - jq
   - redis
   - ripgrep
@@ -38,7 +37,6 @@ homebrew_installed_packages:
   - nmap
   - gnu-sed
   - openssl
-  - pipx
   - tree
   - pstree
   - stow
